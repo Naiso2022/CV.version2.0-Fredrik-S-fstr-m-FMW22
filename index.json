@@ -72,7 +72,38 @@
             "year": "1999-2000",
             "titel": "Ansvarig för stållager",
             "company": "ISAB",
-            "City": "Södertälje"
+            "city": "Södertälje"
+        }
+    ],
+    "SpecialCertificate": [
+        {
+            "drivinglicence": "Körkort - personbil, lastbil och truck", 
+            "coachEducation": "Ledarutbildningar inom basket (Förbundstränare - steg 3)",
+            "refereeEducation": "Domarutbildningar inom basket (Distriktsdomare - Steg 2)"
+        }
+    ],
+    "VoluntaryWork": [
+        {
+            "year": "2004-pågår,", 
+            "work": "Speaker och konferencier i Svenska Basketligan (Högsta serien)."
+        },
+        {
+            "year": "1994-2011,", 
+            "work": "Basketdomare."
+        },
+        {
+            "year": "2006-2007,", 
+            "work": "Ansvarig baskettränare för Svenska Basketbollförbundets regionverksamhet."
+        },
+        {
+            "year": "1995-2008,", 
+            "work": "Baskettränare inom Södertälje Basketbollklubb."
+        }
+    ],
+    "OtherMerits": [
+        {
+            "year": "2010-2012,", 
+            "work": "Styrelseledarmot i bostadsrättsföreningen Brf Parken 1."
         }
     ]
 }
