@@ -2,4 +2,4 @@
 
 ### https://naiso2022.github.io/CV.version2.0-Fredrik-S-fstr-m-FMW22/
 
-### Made by: Fredrik Säfström.
+### Made by: Fredrik Säfström
