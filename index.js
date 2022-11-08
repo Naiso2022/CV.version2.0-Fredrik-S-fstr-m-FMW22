@@ -20,7 +20,7 @@ workexperience.addEventListener('click', one);
 education.addEventListener('click', two);
 specialCertificate.addEventListener('click', three);
 voluntaryWork.addEventListener('click', four);
-otherMerits.addEventListener('click', five);
+otherMerits.addEventListener('click', five); 
 
 async function jump() {
     const url = "index.json";
