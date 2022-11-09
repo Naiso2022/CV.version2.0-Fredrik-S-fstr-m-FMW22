@@ -1,3 +1,4 @@
+const url = "https://api.github.com/users/Naiso2022/repos"
 const ulListOne = document.querySelector(".ulListOne") 
 const ulListTwo = document.querySelector(".ulListTwo") 
 const ulListThree = document.querySelector(".ulListThree") 
@@ -175,3 +176,25 @@ function five(){
     voluntaryWorkDisplay.classList.add("voluntary-work-display")
     otherMeritsDisplay.classList.remove("other-merits-display")
 }
+
+
+async function githubApi() {
+
+    //const url = "index.json";
+    let response = await fetch(url);
+   
+
+    if(response.ok) {
+        let data = await response.json();
+        console.log(data)
+        /*data.Workexperience.forEach(function(element) {
+        ulListOne.innerHTML +=`
+        <li class="moje">
+            ${element.year}: ${element.titel}, ${element.company}, ${element.city}.
+            </li>
+            `;
+        })*/
+}
+}
+
+githubApi();
