@@ -646,6 +646,22 @@ p {
     background-color: rgba(25, 60, 136, 0.6);
     box-shadow: 5px 10px 18px white;
     }
+
+
+.box-twelve {
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+.box-twelve:hover {
+    background-color: rgba(25, 60, 136, 0.6);
+    box-shadow: 5px 10px 18px white;
+}
  
 
 .img-one {
@@ -692,14 +708,30 @@ p {
     padding: 0px;
     font-size: 24px;
     margin-right: 100px;
+    margin-bottom: opx;
+    height: 40px;
     }
 
 
 .headline-two {
     padding: 0px;
     font-size: 24px;
-    margin-left: 115px;
     }
+
+
+.headline-four {
+    padding: 0px;
+    font-size: 24px;
+    margin-right: 100px;
+    margin-bottom: opx;
+    height: 40px;
+}
+
+
+.headline-five {
+    padding: 0px;
+    font-size: 24px;
+}
 
 
 .headline-three {
@@ -713,12 +745,41 @@ p {
 .box-eight {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;    
     padding: 5px;
     }
 
 
+.apiHeadlineOne {
+    padding: 0px;
+    font-size: 24px;
+    margin-right: 100px;
+    width: 200px;
+    }
 
+
+.apiHeadlineTwo {
+    padding: 0px;
+    font-size: 16px;
+    padding-top: 0px;
+    }
+
+
+.apiHeadlineFour {
+    padding: 0px;
+    font-size: 24px;
+    margin-right: 100px;
+    width: 300px;
+
+}
+
+
+.apiHeadlineFive {
+    font-size: 17px;
+    padding-left: 10px;
+    line-height: 22px;
+    margin-top: 8px;
+    text-align: left;
+}
 
 
 /* CSS for contact.html*/
