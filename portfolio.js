@@ -3,8 +3,8 @@ const headlineOne = document.querySelector('.headline-one');
 const headlineTwo = document.querySelector('.headline-two');
 const headlineFour = document.querySelector('.headline-four');
 const headlineFive = document.querySelector('.headline-five');
-
-
+const idsRing = document.querySelector('.lds-ring');
+const loading = document.querySelector('.loading');
 
 
 async function githubApi() {
@@ -14,6 +14,9 @@ async function githubApi() {
     if(response.ok) {
         let data = await response.json();
         //console.log(data)
+
+        idsRing.innerHTML = ``;
+        loading.innerHTML = ``;
 
         for (let i = 0; i < 1; i++) {
             console.log(data[3].description)
