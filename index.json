@@ -1,0 +1,109 @@
+{
+    "Education": [
+        {
+            "year": "2022-2024", 
+            "education": "Frontendutvecklare för mobil och webb",
+            "school": "Chas Academy, Yrkeshögskola",
+            "city": "Stockholm"
+        },
+        {
+            "year": "2011", 
+            "education": "Statsvetenskap 30p",
+            "school": "Stockholms universitet",
+            "city": "Stockholm"
+        },
+        {
+            "year": "2000-2006",
+            "education": "Grundskollärarutbildning med SO-inriktning åk 4-9",
+            "school": "Stockholms universitet",
+            "city": "Stockholm"
+        },
+        {
+            "year": "1996-1999",
+            "education": "Gymnasieutbildning",
+            "school": "Västergårdsgymnasiet",
+            "city": "Södertälje" 
+        },
+        {
+            "year": "1993-1996",
+            "education": "Högstadiet",
+            "school": "Turingeskolan",
+            "city": "Nykvarn"
+        },
+        {
+            "year": "1987-1993",
+            "education": "Låg- och Mellanstadiet",
+            "school": "Lillhagaskolan",
+            "city": "Nykvarn"
+        }
+    ],
+    "Workexperience": [
+        {
+            "year": "2021-2022",
+            "titel": "Biträdande rektor",
+            "company": "Malmsjö skola",
+            "city": "Botkyrka"
+        },
+        {
+            "year": "2018-2021",
+            "titel": "Biträdande rektor",
+            "company": "Hölöskolan",
+            "city": "Södertälje"
+        },
+        {
+            "year": "2014-2018",
+            "titel": "Arbetslagsledare",
+            "company": "Lillhagaskolan",
+            "city": "Nykvarn"
+        },
+        {
+            "year": "2012-2018",
+            "titel": "Lärare",
+            "company": "Lillhagaskolan",
+            "city": "Nykvarn"
+        },
+        {
+            "year": "2006-2012",
+            "titel": "Lärare",
+            "company": "Rosenborgskolan",
+            "city": "Södertälje"
+        },
+        {
+            "year": "1999-2000",
+            "titel": "Ansvarig för stållager",
+            "company": "ISAB",
+            "city": "Södertälje"
+        }
+    ],
+    "SpecialCertificate": [
+        {
+            "drivinglicence": "Körkort - personbil, lastbil och truck", 
+            "coachEducation": "Ledarutbildningar inom basket (Förbundstränare - steg 3)",
+            "refereeEducation": "Domarutbildningar inom basket (Distriktsdomare - Steg 2)"
+        }
+    ],
+    "VoluntaryWork": [
+        {
+            "year": "2004-pågår,", 
+            "work": "Speaker och konferencier i Svenska Basketligan (Högsta serien)."
+        },
+        {
+            "year": "1994-2011,", 
+            "work": "Basketdomare."
+        },
+        {
+            "year": "2006-2007,", 
+            "work": "Ansvarig baskettränare för Svenska Basketbollförbundets regionverksamhet."
+        },
+        {
+            "year": "1995-2008,", 
+            "work": "Baskettränare inom Södertälje Basketbollklubb."
+        }
+    ],
+    "OtherMerits": [
+        {
+            "year": "2010-2012,", 
+            "work": "Styrelseledarmot i bostadsrättsföreningen Brf Parken 1."
+        }
+    ]
+}
