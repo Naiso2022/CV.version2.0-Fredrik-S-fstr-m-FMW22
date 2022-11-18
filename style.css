@@ -628,6 +628,8 @@ p {
 .img-one {
     border-radius: 20px;
     box-shadow: 5px 10px 18px red;
+    height: 180px;
+    width: 180px;
     }
 
 
@@ -640,6 +642,8 @@ p {
 .img-two {
     border-radius: 20px;
     box-shadow: 5px 10px 18px red;
+    height: 180px;
+    width: 180px;
     }
 
 
@@ -652,6 +656,8 @@ p {
 .img-three {
     border-radius: 20px;
     box-shadow: 5px 10px 18px red;
+    height: 180px;
+    width: 180px;
     }
 
 .img-three:hover {
