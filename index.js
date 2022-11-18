@@ -1,4 +1,4 @@
-const url = "https://api.github.com/users/Naiso2022/repos"
+
 const ulListOne = document.querySelector(".ulListOne") 
 const ulListTwo = document.querySelector(".ulListTwo") 
 const ulListThree = document.querySelector(".ulListThree") 
@@ -26,11 +26,8 @@ otherMerits.addEventListener('click', five);
 async function jump() {
     const url = "index.json";
     let response = await fetch(url);
-   
-
     if(response.ok) {
         let data = await response.json();
-        
         data.Workexperience.forEach(function(element) {
         ulListOne.innerHTML +=`
         <li class="moje">
@@ -40,21 +37,14 @@ async function jump() {
         })
 }
 }
-
 jump();
-
-
 
 async function jumpa() {
     const url = "index.json";
     let response = await fetch(url);
-   
-
     if(response.ok) {
         let data = await response.json();
-        
         data.Education.forEach(function(element) {
-
             ulListTwo.innerHTML +=`
         <li class="moje">
             ${element.year}: ${element.education}, ${element.school}, ${element.city}.
@@ -63,14 +53,11 @@ async function jumpa() {
         })
 }
 }
-
 jumpa();
 
 async function jumpan() {
     const url = "index.json";
     let response = await fetch(url);
-   
-
     if(response.ok) {
         let data = await response.json();
         
@@ -90,17 +77,13 @@ async function jumpan() {
         })
 }
 }
-
 jumpan();
 
 async function jumpans() {
     const url = "index.json";
     let response = await fetch(url);
-   
-
     if(response.ok) {
         let data = await response.json();
-        
         data.VoluntaryWork.forEach(function(element) {
 
             ulListFour.innerHTML +=`
@@ -111,18 +94,14 @@ async function jumpans() {
         })
 }
 }
-
 jumpans();
 
 
 async function jumpanse() {
     const url = "index.json";
     let response = await fetch(url);
-   
-
     if(response.ok) {
         let data = await response.json();
-        
         data.OtherMerits.forEach(function(element) {
             
             ulListFive.innerHTML +=`
@@ -133,7 +112,6 @@ async function jumpanse() {
         })
 }
 }
-
 jumpanse();
 
 function one(){
@@ -143,7 +121,6 @@ function one(){
     voluntaryWorkDisplay.classList.add("voluntary-work-display")
     otherMeritsDisplay.classList.add("other-merits-display")
 }
-
 
 function two(){
     workexperienceDisplay.classList.add("workexperience-display")
@@ -177,24 +154,12 @@ function five(){
     otherMeritsDisplay.classList.remove("other-merits-display")
 }
 
-
 async function githubApi() {
-
-    //const url = "index.json";
+    const url = "https://api.github.com/users/Naiso2022/repos";
     let response = await fetch(url);
-   
-
     if(response.ok) {
         let data = await response.json();
         console.log(data)
-        /*data.Workexperience.forEach(function(element) {
-        ulListOne.innerHTML +=`
-        <li class="moje">
-            ${element.year}: ${element.titel}, ${element.company}, ${element.city}.
-            </li>
-            `;
-        })*/
 }
 }
-
 githubApi();
