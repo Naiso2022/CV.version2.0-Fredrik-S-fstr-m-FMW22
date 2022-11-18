@@ -23,16 +23,16 @@ specialCertificate.addEventListener('click', three);
 voluntaryWork.addEventListener('click', four);
 otherMerits.addEventListener('click', five); 
 
-async function jump() {
+async function jump() { 
     const url = "index.json";
     let response = await fetch(url);
     if(response.ok) {
         let data = await response.json();
         data.Workexperience.forEach(function(element) {
         ulListOne.innerHTML +=`
-        <li class="moje">
+        <li class="moje">  
             ${element.year}: ${element.titel}, ${element.company}, ${element.city}.
-            </li>
+            </li> 
             `;
         })
 }
