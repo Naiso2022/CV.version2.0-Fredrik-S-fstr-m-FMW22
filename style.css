@@ -184,6 +184,7 @@ footer {
 .socialmedia {
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 50px;
     }
 
 
@@ -226,12 +227,14 @@ footer {
     box-shadow: 5px 10px 18px red;
     }
 
-
+ 
 .profileimage {
     margin-top: 40px;
     margin-left: 25px;
     box-shadow: 5px 10px 18px red;
     border-radius: 20px;
+    width: 300px;
+    height: 500px;
     }
 
 
