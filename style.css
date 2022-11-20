@@ -1040,9 +1040,7 @@ h2 {
     }
 
 
-footer {
-padding-top: 45px;
-}
+
 
 .box-container {
     display:flex;
@@ -1107,7 +1105,7 @@ padding-top: 45px;
 
 
 .project-three {
-    padding-left: 100px;
+    padding-left: 30px;
 }
 
 /* contact-page */
