@@ -1010,26 +1010,30 @@ p {
     }
 
 
+.headlines {
+    font-size: 25px;
+    padding-left: 35px;
+    }
+
+
 .CV-info {
     height: 18em;
-    width: 18em;
+    width: 23em;
+    margin-top: 120px;
+    display: flex;
+    justify-content:center;
     }
 
 
-.tooltip {
-    font-size: 25px;
-    }
-
-
-.tooltip .tooltiptext {
-    width: 300px;
-    top: 150%;
-    left: 0%;
-    margin-left: -85px;
-    }
+.moje {
+    margin: 0px;
+    padding-top: 100px;
+    font-size: 20px;
+    }    
 
 
 /* portfolio-page */
+
 
 main {
     height: 655px;
