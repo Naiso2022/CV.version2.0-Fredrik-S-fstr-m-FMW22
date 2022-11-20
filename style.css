@@ -905,7 +905,7 @@ li {
 
 
 .main-firstpage {
-    height: 310px;
+    height: 300px;
     }
 
 
@@ -1030,16 +1030,30 @@ p {
 
 /* portfolio-page */
 
+main {
+    height: 850px;
+    }   
+
+
+h2 {
+    font-size: 26px;
+    }
+
+
+footer {
+padding-top: 45px;
+}
 
 .box-container {
     display:flex;
     flex-direction: column;
-    width: 100vh;
+    width: 50vh;
     margin-top: 30px;
+    align-items:stretch;
     }
 
 
-.box-one, .box-two, .box-three {
+.box-one, .box-two, .box-three, .box-eight {
     display: flex;
     justify-content:space-between;
     margin-bottom: 10px;
@@ -1056,7 +1070,7 @@ p {
     }
 
 
-.box-four, .box-five, .box-six, .box-seven, .box-eight, .box-nine, .box-ten, .box-eleven {
+.box-four, .box-five, .box-six, .box-seven, .box-nine, .box-ten, .box-eleven {
     display: none;
     }
 
@@ -1065,8 +1079,36 @@ p {
     display: block;
     visibility: visible;
     margin-top: -30px;
+    padding-left: 110px;
     }
 
+
+.apiHeadlineOne {
+    font-size: 20px;
+    padding-left: 30px;
+    }
+
+
+.apiHeadlineTwo {
+    font-size: 18px;
+    }
+
+
+.apiHeadlineFour {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+
+.apiHeadlineFive {
+    font-size: 18px;
+    padding-left: 60px;
+}
+
+
+.project-three {
+    padding-left: 100px;
+}
 
 /* contact-page */
 
