@@ -1040,8 +1040,6 @@ h2 {
     }
 
 
-
-
 .box-container {
     display:flex;
     flex-direction: column;
@@ -1103,10 +1101,6 @@ h2 {
     padding-left: 60px;
 }
 
-
-.project-three {
-    padding-left: 30px;
-}
 
 /* contact-page */
 
