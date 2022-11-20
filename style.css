@@ -997,7 +997,7 @@ p {
     width: 100%;
     margin-top: 35px;
     padding-left: 50px;
-        overflow: scroll;
+    overflow: auto;
     }              
      
 
